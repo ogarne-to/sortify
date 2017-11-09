@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "703387042891",
+    "firebase_url": "https://sortify-edcfe.firebaseio.com",
+    "project_id": "sortify-edcfe",
+    "storage_bucket": "sortify-edcfe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:703387042891:android:364a8a3b9273d322",
+        "android_client_info": {
+          "package_name": "com.example.jedrzej.sortify"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "703387042891-fukhjgj55dfv7t353kgqfpd5secmsh3f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jedrzej.sortify",
+            "certificate_hash": "EB472E2A3129F4B87D83E4442B7C3DD5E6D7F9ED"
+          }
+        },
+        {
+          "client_id": "703387042891-7r9u76qadmegsdusu8jntt9187500dca.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCD01-3V0eFHQPQri0b1YH7XYp_0jpSuMM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "703387042891-7r9u76qadmegsdusu8jntt9187500dca.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

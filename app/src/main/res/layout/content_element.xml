@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginBottom="16dp">
+    <ImageView
+        android:id="@+id/drag_handle_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_more_vert_black_24dp"
+        android:layout_marginTop="8dp"/>
+
+    <ImageView
+        android:id="@+id/drag_handle_2"
+        android:layout_toEndOf="@id/drag_handle_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_more_vert_black_24dp"
+        android:layout_marginLeft="-18dp"
+        android:layout_marginTop="8dp"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_clear_black_24dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:id="@+id/remove_image_view"
+        android:layout_alignParentEnd="true"/>
+
+    <EditText
+        android:id="@+id/content_element_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@id/drag_handle_2"
+        android:layout_toStartOf="@id/remove_image_view"
+        android:maxLines="1"
+
+        android:singleLine="true"/>
+
+</RelativeLayout>

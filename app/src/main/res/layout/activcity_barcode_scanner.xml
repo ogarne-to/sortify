@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    android:id="@+id/activity_new_barcode"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.jedrzej.sortify.ui.BarcodeScannerActivity">
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/flashFAB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/ic_lightbulb_outline_black_24dp"
+        />
+
+    <me.dm7.barcodescanner.zbar.ZBarScannerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/zbarScannerView"
+        app:layout_constraintLeft_toLeftOf="@+id/activity_new_barcode"
+        app:layout_constraintRight_toRightOf="@+id/activity_new_barcode">
+
+    </me.dm7.barcodescanner.zbar.ZBarScannerView>
+
+</android.support.design.widget.CoordinatorLayout>
